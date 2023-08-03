@@ -1,0 +1,66 @@
+1.G0 to file->new project->select maven ->click the create from archstype ->next->name the project
+->groupID for company name,artifact for the project name ->and then create
+
+2.then go the maven repository->type seleniim java->select the version you want->after clicking you see some de
+pendies copy that dependancy and past it in your pom.xml after creating the  <dependencies>
+between this </dependencies> then reload the maven from the option that you see on the top right of your
+screen or go to   right click inside the pom.xml->go to maven ->and then click on the project reload
+
+    </properties>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.141.59</version>
+        </dependency>
+ 4.Cucumber JVM:Java(io.cucumber >>cucumber-java)
+          <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+                <dependency>
+                    <groupId>io.cucumber</groupId>
+                    <artifactId>cucumber-java</artifactId>
+                    <version>6.9.1</version>
+                </dependency>
+ 5.Cucumber JVM:JUnit(io.cucumber >>cucumber-junit)
+
+                <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+                <dependency>
+                    <groupId>io.cucumber</groupId>
+                    <artifactId>cucumber-junit</artifactId>
+                    <version>6.9.1</version>
+                    <scope>test</scope>
+                </dependency>
+                <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+                <dependency>
+                    <groupId>org.apache.poi</groupId>
+                    <artifactId>poi</artifactId>
+                    <version>4.1.2</version>
+                </dependency>
+
+
+
+    </dependencies>
+     <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi-ooxml</artifactId>
+                <version>4.1.2</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>2.8.0</version>
+            </dependency>
+
+</project>
+
+3.Delete the (main) part from the main menu because it is for developer
+
+
+
+
+
+
+
